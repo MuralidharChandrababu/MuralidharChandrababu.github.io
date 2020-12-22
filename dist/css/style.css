@@ -503,7 +503,8 @@
 	align-items: stretch
 }
 .results-container .results-card .result-item .result-content .result-details .result-detail-item {
-	flex: 0 0 100%
+	flex: 0 0 100%;
+	text-align:left;
 }
 .results-container .results-card .result-item .result-content .result-details .result-detail-item .result-item-header {
 	font-size: 1.25em;
@@ -544,34 +545,24 @@
 		padding: 1em 1.5em
 	}
 	.results-container .results-card .result-item .result-icon {
-		display: block;
 		color: #f6bc25;
 		font-size: 1.7em;
 		font-weight: 700;
-		margin-right: .5em
-	}
-	.results-container .results-card .result-item .result-icon:before {
-		content: "";
-		height: 2em;
-		width: 2em;
+		margin-right: .5em;
 		border-radius: 50%;
 		background-color: #004a80;
-		display: block;
-		position: absolute;
-		z-index: -1
+		height: 1.7em;
+		width: 1.7em;
+		text-align: center;
+		padding-top: 0.23em;
 	}
-	.results-container .results-card .result-item .result-icon .value {
-		height: 2em;
-		width: 2em;
-		display: flex;
-		align-items: center;
-		justify-content: center
-	}
+
 	.results-container .results-card .result-item .result-content .result-header {
 		color: #004a80;
 		font-size: 2em;
 		margin-top: 0;
-		margin-bottom: .5em
+		margin-bottom: .5em;
+		text-align:left;
 	}
 	.results-container .results-card .result-item .result-content p {
 		margin-top: .75em
@@ -582,7 +573,8 @@
 		align-items: stretch
 	}
 	.results-container .results-card .result-item .result-content .result-details .result-detail-item {
-		flex: 0 0 40%
+		flex: 0 0 40%;
+		text-align:left;
 	}
 	.results-container .results-card .result-item .result-content .result-details .result-detail-item:nth-child(odd) {
 		flex: 0 0 60%;
@@ -622,36 +614,28 @@
 	}
 	.results-container .results-card .result-item .result-icon {
 		color: #f6bc25;
-		font-size: 2.5em;
+		font-size: 1.7em;
 		font-weight: 700;
-		margin-right: .5em
-	}
-	.results-container .results-card .result-item .result-icon:before {
-		content: "";
-		height: 2em;
-		width: 2em;
+		margin-right: .5em;
 		border-radius: 50%;
 		background-color: #004a80;
-		display: block;
-		position: absolute;
-		z-index: -1
+		height: 1.7em;
+		width: 1.7em;
+		text-align: center;
+		padding-top: 0.23em;
 	}
-	.results-container .results-card .result-item .result-icon .value {
-		height: 2em;
-		width: 2em;
-		display: flex;
-		align-items: center;
-		justify-content: center
-	}
+	
 	.results-container .results-card .result-item .result-content .result-header {
 		color: #004a80;
 		font-size: 2em;
 		margin-top: 0;
-		margin-bottom: .5em
+		margin-bottom: .5em;
+		text-align:left;
 	}
 	.results-container .results-card .result-item .result-content p {
 		margin-top: .75em;
-		font-size: 1.15em
+		font-size: 1.15em;
+		text-align:left;
 	}
 	.results-container .results-card .result-item .result-content .result-details {
 		display: flex;
@@ -659,7 +643,8 @@
 		align-items: stretch
 	}
 	.results-container .results-card .result-item .result-content .result-details .result-detail-item {
-		flex: 0 0 40%
+		flex: 0 0 40%;
+		text-align:left;
 	}
 	.results-container .results-card .result-item .result-content .result-details .result-detail-item:nth-child(odd) {
 		flex: 0 0 60%;

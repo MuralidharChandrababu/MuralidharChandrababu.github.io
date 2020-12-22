@@ -19,12 +19,14 @@
       if (data.length == 0) {
         document.getElementById("resultLoading").style.display = "none";
         document.getElementById("noResultsFound").style.display = "block";
-        document.getElementById("resultsCard").style.backgroundColor = "";
+        document.getElementById("resultsCard").style.backgroundColor =
+          "#ffffff";
         document.getElementById("noResultId").innerHTML = emailQuery;
       } else {
         document.getElementById("resultLoading").style.display = "none";
         document.getElementById("resultsCard").style.display = "block";
-        document.getElementById("resultsCard").style.backgroundColor = "";
+        document.getElementById("resultsCard").style.backgroundColor =
+          "#ffffff";
         document.getElementById("name").innerHTML =
           data.first_name + " " + data.last_name;
         document.getElementById("description").innerHTML = data.description;
