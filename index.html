@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Search for email address details" />
+    <meta name="author" content="Muralidhar Chandrababu" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Any Email</title>
+    <link rel="stylesheet" href="dist/css/style.css" />
+  </head>
+  <body>
+    <header class="bg-blue">
+      <div class="container">
+        <nav class="navbar">
+          <a class="navbar-brand" href="./index.html"
+            ><img src="assets/images/logo.png" alt="logo"
+          /></a>
+          <ul class="navbar-nav navbar-nav-right">
+            <li>
+              <a href="#"><i class="fa fa-search"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-user"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section>
+      <div class="top-banner-search">
+        <div class="container">
+          <h1>Search Any Email Address</h1>
+          <div class="banner-message">
+            <strong>Start Here</strong>
+            - Lookup the owner's name, photos and online profiles. See what you find!
+          </div>
+
+          <form name="emailSearchForm" method="GET" action="/emailSearchResult.html" class="search-box">
+            <div id="emailFormGroup" class="form-group floating-label-container">
+              <label id="emailLabel" for="email">Email</label>
+              <label id="invalidEmailLabel"></label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <button
+              class="btn-banner"
+              type="submit"
+              onclick="ValidateEmail(document.emailSearchForm.email)"
+            >
+              GO!
+            </button>
+          </form>
+
+          <div class="banner-sub-message">
+            <i class="fa fa-lock"></i>
+            Enter Any Email Address. They won't be notified.
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="main-container">
+        <div class="container">
+          <div class="main-section-header">
+            <h2>Reverse Email Lookup</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex commodo consequat.
+            </p>
+          </div>
+          <div class="promo-list-container">
+            <ul>
+              <li>
+                <div class="promo-item">
+                  <div class="promo-number">
+                    <div class="value">1</div>
+                  </div>
+                  <div class="promo-content">
+                    <h3 class="promo-header">Lorem Ipsum</h3>
+                    <p class="promo-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="promo-item">
+                  <div class="promo-number">
+                    <div class="value">2</div>
+                  </div>
+                  <div class="promo-content">
+                    <h3 class="promo-header">Lorem Ipsum</h3>
+                    <p class="promo-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="promo-item">
+                  <div class="promo-number">
+                    <div class="value">3</div>
+                  </div>
+                  <div class="promo-content">
+                    <h3 class="promo-header">Lorem Ipsum</h3>
+                    <p class="promo-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="promo-item">
+                  <div class="promo-number">
+                    <div class="value">4</div>
+                  </div>
+                  <div class="promo-content">
+                    <h3 class="promo-header">Lorem Ipsum</h3>
+                    <p class="promo-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="promo-item">
+                  <div class="promo-number">
+                    <div class="value">5</div>
+                  </div>
+                  <div class="promo-content">
+                    <h3 class="promo-header">Lorem Ipsum</h3>
+                    <p class="promo-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="promo-item">
+                  <div class="promo-number">
+                    <div class="value">6</div>
+                  </div>
+                  <div class="promo-content">
+                    <h3 class="promo-header">Lorem Ipsum</h3>
+                    <p class="promo-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-message">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex commodo consequat.
+          </div>
+          <ul class="footer-links">
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="dist/js/emailValidation.js"></script>
+    <script src="dist/js/search.js"></script>
+    <script src="dist/js/emailEventListeners.js"></script>
+  </body>
+</html>
